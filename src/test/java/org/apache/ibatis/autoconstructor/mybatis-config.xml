@@ -20,6 +20,9 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
+        <!--在 <environments /> 标签中，配置了事务管理和数据源。考虑到减少外部依赖，所以使用了 HSQLDB 。-->
+        <!--在 <mappers /> 标签中，配置了需要扫描的 Mapper 文件。目前，仅仅扫描 AutoConstructorMapper.xml 文件。-->
+
 <configuration>
 
     <!-- autoMappingBehavior should be set in each test case -->

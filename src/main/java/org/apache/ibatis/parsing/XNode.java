@@ -96,6 +96,11 @@ public class XNode {
     return builder.toString();
   }
 
+  /**
+   * 动态值的替换
+   * @param expression 表达式
+   * @return 值
+   */
   public String evalString(String expression) {
     return xpathParser.evalString(node, expression);
   }

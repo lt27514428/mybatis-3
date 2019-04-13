@@ -13,6 +13,8 @@
 --    See the License for the specific language governing permissions and
 --    limitations under the License.
 --
+-- 创建了 subject 表，并初始化三条数据。
+-- 创建了 extensive_subject 表，并初始化三条数据。
 
 DROP TABLE subject
 IF EXISTS;
